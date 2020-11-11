@@ -26,7 +26,7 @@ and choose the best model
 
 ## Evaluation
 #### Best model
-_Random Forest_ is determined to have the best prediction accuracy.
+* _Random Forest_ is determined to have the best prediction accuracy.
 #### Accuracy
 * Current best F1 score from _Random Forest_ is 0.53.
 * The F1 score is 0.87 if considering the adjacent facies prediction.
