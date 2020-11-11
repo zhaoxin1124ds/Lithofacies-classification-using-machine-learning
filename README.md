@@ -5,10 +5,12 @@ This experiment is identified as a typical Classification problem:
 
   * Target: rock facies
   * Features: log measurement
+  
 ## Data
 The well log data are from real wells of Council Grove gas reservoir in Southwest Kansas. It is can be downloaded from [Github](https://https://github.com/seg/tutorials-2016/tree/master/1610_Facies_classification).
 
 The challenge of this experiment is that the facies aren't discrete and gradually blend into one another. Some have adjacent facies that are rather close. Mislabeling within these adjacent facies can be expected to occur. So it is challenging to predict the facies accurately.
+
 ## Experiment procedure
 #### Data preparation
 There are total 9 wells in the data. I will use 8 for modeling and leave 1 for blind test of modeling. performance
@@ -21,12 +23,14 @@ I will test below supervised learning algorithms:
 #### Modeling performance evaluation
 I designed a T-test flow to tell the significance in difference of prediction accuracy.
 and choose the best model
+
 ## Evaluation
 #### Best model
 _Random Forest_ is determined to have the best prediction accuracy.
 #### Accuracy
 * Current best F1 score from _Random Forest_ is 0.53.
 * The F1 score is 0.87 if considering the adjacent facies prediction.
+
 ## More thinks for further improvement
 * Some facies are not well precited as others during the experiments. I think this is due to the limited measurements available for those facies. More well information could help.
 * Feature engineering to create more correlated variables could also help.
