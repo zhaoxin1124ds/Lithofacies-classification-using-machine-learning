@@ -5,7 +5,10 @@ This experiment is identified as a typical Classification problem:
 
   * Target: rock facies
   * Features: log measurement
-  
+
+## Presentation
+https://github.com/zhaoxin1124ds/Lithofacies-classification-using-machine-learning/blob/main/facies_classification.pdf
+
 ## Data
 The well log data are from real wells of Council Grove gas reservoir in Southwest Kansas. It is can be downloaded from [Github](https://https://github.com/seg/tutorials-2016/tree/master/1610_Facies_classification).
 
@@ -35,4 +38,3 @@ and choose the best model
 * Some facies are not well precited as others during the experiments. I think this is due to the limited measurements available for those facies. More well information could help.
 * Feature engineering to create more correlated variables could also help.
 * Labeling the importance of rocks could also increase the power to evaluate the modeling performance.
-
