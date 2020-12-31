@@ -6,7 +6,7 @@ This experiment is identified as a typical Classification problem:
   * Target: rock facies
   * Features: log measurement
 
-## Presentation
+## [Presentation](https://github.com/zhaoxin1124ds/Lithofacies-classification-using-machine-learning/blob/main/facies_classification.pdf)
 https://github.com/zhaoxin1124ds/Lithofacies-classification-using-machine-learning/blob/main/facies_classification.pdf
 
 ## Data
