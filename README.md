@@ -1,3 +1,4 @@
+![Picture1](https://user-images.githubusercontent.com/45460506/103392078-c2ba0500-4ae1-11eb-9b49-17310a60d909.png)
 # Lithofacies classification using machine learning
 An accurate identification of rock class is critical in oil and gas industry. It usually takes long time for petroleum specialists to examine the rock features and label the rock class. Therefore, it could be worthwhile to create a product that helps people save time by automating that process. In this project, I explore to solve this challenge using supervised learning algorithms.
 
